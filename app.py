@@ -1,26 +1,3 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "6cb52801-4739-4f47-9d38-dd9bd905c3d5",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "",
-   "name": ""
-  },
-  "language_info": {
-   "name": ""
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
 import pickle
 import subprocess
 import json
@@ -30,7 +7,7 @@ import numpy as np
 
 import requests
 
-TMDB_API_KEY = "449e1a76b768d89c84fce8bc515256ca"
+TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 
 @st.cache_data
 def fetch_poster(movie_id):
