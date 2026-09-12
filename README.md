@@ -12,7 +12,6 @@ Goal:
                                                                                4. Batman
                                                                                5. Superman
 Approach:
-
 1. After getting the movie dataset we will separate out the deciding factors that usually will be a description of the movie:
                 It will include its genre, cast and crew, reviews, story, etc.
 
